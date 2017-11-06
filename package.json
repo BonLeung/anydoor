@@ -1,0 +1,30 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "NodeJS statis web server",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonLeung/anydoor.git"
+  },
+  "author": "liangweibang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonLeung/anydoor/issues"
+  },
+  "homepage": "https://github.com/BonLeung/anydoor#readme"
+}
