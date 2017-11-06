@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "NodeJS statis web server",
   "main": ".eslintrc.js",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.10.0",
